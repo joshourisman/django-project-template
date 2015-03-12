@@ -33,6 +33,10 @@ class BaseConfiguration(Configuration):
     STATIC_URL = '/static/'
     DATABASES = values.DatabaseURLValue()
 
+    INSTALLED_APPS = Configuration.INSTALLED_APPS + (
+        'django_extensions',
+    )
+
 
 class Local(BaseConfiguration):
     DEBUG = True
