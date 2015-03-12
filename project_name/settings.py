@@ -34,7 +34,7 @@ class BaseConfiguration(Configuration):
     DATABASES = values.DatabaseURLValue()
 
 
-class Develop(BaseConfiguration):
+class Local(BaseConfiguration):
     DEBUG = True
     TEMPLATE_DEBUG = False
 
