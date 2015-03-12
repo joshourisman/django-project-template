@@ -41,3 +41,4 @@ class Develop(BaseConfiguration):
 
 class Production(BaseConfiguration):
     SECRET_KEY = '{{ secret_key }}'
+    STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
