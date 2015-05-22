@@ -1,5 +1,6 @@
+--extra-index-url https://pypi.fury.io/xx7cBzxNhitiUVTjHWWT/me/
 dj-database-url==0.3.0
-django-configurations==0.8
+django-configurations==0.9.bolster2
 django-extensions==1.5.5
 Django==1.8.2
 ecdsa==0.13
