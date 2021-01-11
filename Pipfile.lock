@@ -237,11 +237,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:5c5a2720817414a6c41f0a49993908068243ae02c1635a228126519b509c8aed",
-                "sha256:bf792d480abbd5eda85794e4afb09dd538393f7d6e6ffef6e9f03d2014cf9450"
+                "sha256:ace61d5fc652dc280e7b6b4ff732a9c2d40db2c0f92bc6cb74e07b73d53a1771",
+                "sha256:fa5daa4477a7414ae34e95942e4dd07f62adf589143c875c133c1e53c4eff38d"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==3.3.0"
+            "version": "==3.4.0"
         },
         "ipython": {
             "hashes": [
@@ -303,18 +303,18 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:45b154489d89dc41cce86a069a65f3886206518e7ca93fa9d7dad70546c78d54",
-                "sha256:c5eeab58dd31b541442825d7870777f2a2f764eb5fda03334d5219cd84b9722f"
+                "sha256:ac329c69bd8564cb491940511957312c7b8959bb5b3cf3582b406068a51d5bb7",
+                "sha256:b8b3d0bde65da350290c46a8f54f336b3cbf5464a4ac11239668d986852e79d5"
             ],
-            "version": "==3.0.9"
+            "version": "==3.0.10"
         },
         "ptpython": {
             "hashes": [
-                "sha256:d293f39ce2ef75f1d48c5beed33dcd07b9e8e42aafdcb1d904bc70ae7f726ff8",
-                "sha256:efabbe0bb8301df42074598cc09c77c5752ffa98eecabbcf7c3f7a154f557539"
+                "sha256:e9933a9d00c3571cbd824881ba0ff1e6e23706fd466d038b9230d845184f514b",
+                "sha256:f9278039d8b3aeed285a220e347c5053e15b95b7ebffcc2686d66ea024422cab"
             ],
             "index": "pypi",
-            "version": "==3.0.8"
+            "version": "==3.0.9"
         },
         "ptyprocess": {
             "hashes": [
