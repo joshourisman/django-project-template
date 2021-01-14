@@ -310,11 +310,11 @@
         },
         "ptpython": {
             "hashes": [
-                "sha256:e9933a9d00c3571cbd824881ba0ff1e6e23706fd466d038b9230d845184f514b",
-                "sha256:f9278039d8b3aeed285a220e347c5053e15b95b7ebffcc2686d66ea024422cab"
+                "sha256:8e694f174d075943b26ff45c9eed00211e2aca516ef538bd3bc16b15966646ea",
+                "sha256:f30af2b73a829b7926a8a7f5713eee7d2b22369ac412b8323e091858d8bf2a61"
             ],
             "index": "pypi",
-            "version": "==3.0.9"
+            "version": "==3.0.10"
         },
         "ptyprocess": {
             "hashes": [
@@ -339,10 +339,10 @@
         },
         "pygments": {
             "hashes": [
-                "sha256:ccf3acacf3782cbed4a989426012f1c535c9a90d3a7fc3f16d231b9372d2b716",
-                "sha256:f275b6c0909e5dafd2d6269a656aa90fa58ebf4a74f8fcf9053195d226b24a08"
+                "sha256:bc9591213a8f0e0ca1a5e68a479b4887fdc3e75d0774e5c71c31920c427de435",
+                "sha256:df49d09b498e83c1a73128295860250b0b7edd4c723a32e9bc0d295c7c2ec337"
             ],
-            "version": "==2.7.3"
+            "version": "==2.7.4"
         },
         "regex": {
             "hashes": [
