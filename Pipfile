@@ -7,7 +7,7 @@ verify_ssl = true
 ipython = "*"
 ptpython = "*"
 flake8 = "*"
-black = "==19.10b0"
+black = "==20.8b1"
 werkzeug = "*"
 rope = "*"
 flake8-black = "*"
