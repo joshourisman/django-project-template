@@ -295,18 +295,18 @@
         },
         "prompt-toolkit": {
             "hashes": [
-                "sha256:ac329c69bd8564cb491940511957312c7b8959bb5b3cf3582b406068a51d5bb7",
-                "sha256:b8b3d0bde65da350290c46a8f54f336b3cbf5464a4ac11239668d986852e79d5"
+                "sha256:7e966747c18ececaec785699626b771c1ba8344c8d31759a1915d6b12fad6525",
+                "sha256:c96b30925025a7635471dc083ffb6af0cc67482a00611bd81aeaeeeb7e5a5e12"
             ],
-            "version": "==3.0.10"
+            "version": "==3.0.14"
         },
         "ptpython": {
             "hashes": [
-                "sha256:8e694f174d075943b26ff45c9eed00211e2aca516ef538bd3bc16b15966646ea",
-                "sha256:f30af2b73a829b7926a8a7f5713eee7d2b22369ac412b8323e091858d8bf2a61"
+                "sha256:cb110955be0ad0eb197f3f07f5ecdce44bd7467b03d519f4cc2b856c4782bf5d",
+                "sha256:cb884f72448cf49c46675c7f34ff1a52aa27be9a712cbab620af6df7689ca066"
             ],
             "index": "pypi",
-            "version": "==3.0.10"
+            "version": "==3.0.12"
         },
         "ptyprocess": {
             "hashes": [
