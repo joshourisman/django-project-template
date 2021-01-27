@@ -302,11 +302,11 @@
         },
         "ptpython": {
             "hashes": [
-                "sha256:cb110955be0ad0eb197f3f07f5ecdce44bd7467b03d519f4cc2b856c4782bf5d",
-                "sha256:cb884f72448cf49c46675c7f34ff1a52aa27be9a712cbab620af6df7689ca066"
+                "sha256:78a8b9bc9c07f2e1c3724d19fb0cf2c98ed0cd4ea11e087108d9056d75e650f3",
+                "sha256:b0a6747b1ab628a5807b9c1ec9022a79cc8f7ad12306460716cc737a4d9a839e"
             ],
             "index": "pypi",
-            "version": "==3.0.12"
+            "version": "==3.0.13"
         },
         "ptyprocess": {
             "hashes": [
