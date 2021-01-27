@@ -23,5 +23,13 @@ RUN if [ "${INSTALL_NODE}" = "true" ]; then su vscode -c "umask 0002 && . /usr/l
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
+RUN echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/3/Debian_10/ /' | sudo tee /etc/apt/sources.list.d/shells:fish:release:3.list \
+    && curl -fsSL https://download.opensuse.org/repositories/shells:fish:release:3/Debian_10/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/shells_fish_release_3.gpg > /dev/null \
+    && apt update && export DEBIAN_FRONTEND=noninteractive \
+    && apt -y install --no-install-recommends fish
 
-
+# Set up shell
+RUN curl -fsSL https://starship.rs/install.sh | bash -s -- -y \
+    && mkdir -p /home/vscode/.config/fish/ \
+    && echo 'starship init fish | source' >> /home/vscode/.config/fish/config.fish \
+    && chown -R vscode:vscode /home/vscode/.config/fish
