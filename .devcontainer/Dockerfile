@@ -33,3 +33,6 @@ RUN curl -fsSL https://starship.rs/install.sh | bash -s -- -y \
     && mkdir -p /home/vscode/.config/fish/ \
     && echo 'starship init fish | source' >> /home/vscode/.config/fish/config.fish \
     && chown -R vscode:vscode /home/vscode/.config/fish
+
+
+ENV DATABASE_URL=postgres://postgres:LocalPassword@db/postgres
