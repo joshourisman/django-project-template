@@ -2,7 +2,8 @@ from typing import List
 
 from pydantic_settings import PydanticSettings
 
-class {{ project_name }}Settings(PydanticSettings):
+
+class BaseSettings(PydanticSettings):
     INSTALLED_APPS: List[str] = (
         ["whitenoise.runserver_nostatic"]
         + [
