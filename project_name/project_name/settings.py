@@ -1,16 +1,10 @@
-import os
-from pathlib import Path
+from typing import List
 
-from configurations import Configuration, values
+from pydantic_settings import PydanticSettings
 
 
-class Base(Configuration):
-    BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
-    DEBUG = False
-    SECRET_KEY = values.SecretValue()
-    ALLOWED_HOSTS = ["*"]
-
-    INSTALLED_APPS = (
+class BaseSettings(PydanticSettings):
+    INSTALLED_APPS: List[str] = (
         ["whitenoise.runserver_nostatic"]
         + [
             "django.contrib.admin",
@@ -24,7 +18,7 @@ class Base(Configuration):
         + []
     )
 
-    MIDDLEWARE = [
+    MIDDLEWARE: List[str] = [
         "django.middleware.security.SecurityMiddleware",
         "whitenoise.middleware.WhiteNoiseMiddleware",
         "django.contrib.sessions.middleware.SessionMiddleware",
@@ -35,9 +29,7 @@ class Base(Configuration):
         "django.middleware.clickjacking.XFrameOptionsMiddleware",
     ]
 
-    ROOT_URLCONF = "{{ project_name }}.urls"
-
-    TEMPLATES = [
+    TEMPLATES: List[dict] = [
         {
             "BACKEND": "django.template.backends.django.DjangoTemplates",
             "DIRS": [],
@@ -53,26 +45,18 @@ class Base(Configuration):
         },
     ]
 
-    WSGI_APPLICATION = "{{ project_name }}.wsgi.application"
+    STATIC_URL: str = "/static/"
 
-    AUTH_PASSWORD_VALIDATORS = [
-        {
-            "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+    LOGGING: dict = {
+        "version": 1,
+        "disable_existing_loggers": False,
+        "handlers": {
+            "console": {
+                "class": "rich.logging.RichHandler",
+            },
         },
-        {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",},
-        {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",},
-        {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",},
-    ]
-
-    LANGUAGE_CODE = "en-us"
-    TIME_ZONE = "US/Eastern"
-    USE_I18N = True
-    USE_L10N = True
-    USE_TZ = True
-
-    STATIC_URL = "/static/"
-    STATIC_ROOT = os.path.join(BASE_DIR, "static")
-
-    SITE_ID = 1
-
-    STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+        "root": {
+            "handlers": ["console"],
+            "level": "WARNING",
+        },
+    }
