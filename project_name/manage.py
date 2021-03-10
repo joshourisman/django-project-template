@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 """Django's command-line utility for administrative tasks."""
-import os
 import sys
+
+from pydantic_settings import SetUp
 
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{{ project_name }}.settings")
-    os.environ.setdefault("DJANGO_CONFIGURATION", "LocalDev")
+    SetUp().configure()
 
     try:
-        from configurations.management import execute_from_command_line
+        from django.core.management import execute_from_command_line
     except ImportError as exc:
         raise ImportError(
             "Couldn't import Django. Are you sure it's installed and "
