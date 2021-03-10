@@ -28,4 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         poetry run django-admin startproject --template=project_name test_project
+        cd test_project
         poetry run inv test
