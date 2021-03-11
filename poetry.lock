@@ -144,16 +144,16 @@ Django = ">=2.0.1"
 
 [[package]]
 name = "django-pydantic-settings"
-version = "0.3.0"
+version = "0.4.0"
 description = "Manage Django settings with Pydantic."
 category = "main"
 optional = false
-python-versions = ">=3.6,<4.0"
+python-versions = ">=3.6.1,<4.0.0"
 
 [package.dependencies]
 dj-database-url = ">=0.5.0,<0.6.0"
 Django = ">=1.11"
-pydantic = {version = ">=1.7.3,<2.0.0", extras = ["email"]}
+pydantic = {version = ">=1.8,<2.0", extras = ["email"]}
 
 [package.extras]
 sentry = ["sentry-sdk"]
@@ -475,7 +475,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "8442d8a02c860a5ae830592e4aaf7ca242227f806ac6b53c16d7352138f2eb7e"
+content-hash = "eed948c0a3847db72363bb5254762ebd77d129fc6723c46bc410131d23eed36a"
 
 [metadata.files]
 appdirs = [
@@ -564,8 +564,8 @@ django-model-utils = [
     {file = "django_model_utils-4.1.1-py3-none-any.whl", hash = "sha256:ef7c440024e797796a3811432abdd2be8b5225ae64ef346f8bfc6de7d8e5d73c"},
 ]
 django-pydantic-settings = [
-    {file = "django-pydantic-settings-0.3.0.tar.gz", hash = "sha256:ea1acce3f4f799605359af30ee3a2fe3b232e718613038c4f3425b53d5844d34"},
-    {file = "django_pydantic_settings-0.3.0-py3-none-any.whl", hash = "sha256:b61dfb08bfd65b0b1dbdab8017ecdb2ca47362c590ad5f8a16f949b6cf8ec31e"},
+    {file = "django-pydantic-settings-0.4.0.tar.gz", hash = "sha256:9270e7b46ef0088360ca9e319fc0fcaedb0959cd44ba5354296ab44243266554"},
+    {file = "django_pydantic_settings-0.4.0-py3-none-any.whl", hash = "sha256:f60e4d8eea53b138b8b3543b684ebd057231d6237a74ef844368df222dbdce26"},
 ]
 dnspython = [
     {file = "dnspython-2.1.0-py3-none-any.whl", hash = "sha256:95d12f6ef0317118d2a1a6fc49aac65ffec7eb8087474158f42f26a639135216"},
