@@ -12,7 +12,7 @@ whitenoise = {version = "^5.2.0", extras = ["brotli"]}
 django-extensions = "^3.1.1"
 psycopg2-binary = "^2.8.6"
 django-model-utils = "^4.1.1"
-django-pydantic-settings = "^0.3.0"
+django-pydantic-settings = "^0.4.0"
 rich = "^9.13.0"
 
 [tool.poetry.dev-dependencies]
