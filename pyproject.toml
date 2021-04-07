@@ -7,7 +7,7 @@ license = "private"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-Django = "~3.1"
+Django = "~3.2"
 whitenoise = {version = "^5.2.0", extras = ["brotli"]}
 django-extensions = "^3.1.2"
 psycopg2-binary = "^2.8.6"
