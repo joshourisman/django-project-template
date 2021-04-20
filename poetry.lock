@@ -125,7 +125,7 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 name = "django-extensions"
-version = "3.1.2"
+version = "3.1.3"
 description = "Extensions for Django"
 category = "main"
 optional = false
@@ -478,7 +478,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "2fe3bb3a189b3f0048f99cafb427d0df7815591d3650fb4654a2f999b8fa189c"
+content-hash = "e2bf5c5c224171d28ea87d0c179940ddfe29fab4b00c55ca945f3c7eb1052b6c"
 
 [metadata.files]
 appdirs = [
@@ -559,8 +559,8 @@ django = [
     {file = "Django-3.2.tar.gz", hash = "sha256:21f0f9643722675976004eb683c55d33c05486f94506672df3d6a141546f389d"},
 ]
 django-extensions = [
-    {file = "django-extensions-3.1.2.tar.gz", hash = "sha256:081828e985485662f62a22340c1506e37989d14b927652079a5b7cd84a82368b"},
-    {file = "django_extensions-3.1.2-py3-none-any.whl", hash = "sha256:17f85f4dcdd5eea09b8c4f0bad8f0370bf2db6d03e61b431fa7103fee29888de"},
+    {file = "django-extensions-3.1.3.tar.gz", hash = "sha256:5f0fea7bf131ca303090352577a9e7f8bfbf5489bd9d9c8aea9401db28db34a0"},
+    {file = "django_extensions-3.1.3-py3-none-any.whl", hash = "sha256:50de8977794a66a91575dd40f87d5053608f679561731845edbd325ceeb387e3"},
 ]
 django-model-utils = [
     {file = "django-model-utils-4.1.1.tar.gz", hash = "sha256:eb5dd05ef7d7ce6bc79cae54ea7c4a221f6f81e2aad7722933aee66489e7264b"},
