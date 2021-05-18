@@ -404,7 +404,7 @@ python-versions = "*"
 
 [[package]]
 name = "rich"
-version = "10.2.0"
+version = "10.2.1"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
@@ -489,7 +489,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "66f70bea21457c93e2116468623e61f4621ac44290e332ece883e8696b9b9245"
+content-hash = "bea109e3430c77835590c23cfd76bd4df6558c6ac0326abf59a3165c324864a9"
 
 [metadata.files]
 appdirs = [
@@ -759,8 +759,8 @@ regex = [
     {file = "regex-2020.11.13.tar.gz", hash = "sha256:83d6b356e116ca119db8e7c6fc2983289d87b27b3fac238cfe5dca529d884562"},
 ]
 rich = [
-    {file = "rich-10.2.0-py3-none-any.whl", hash = "sha256:2701b69b9646a12b05d80f9d96a48615d4b68678fbfa67a60aa2834a62ad01e7"},
-    {file = "rich-10.2.0.tar.gz", hash = "sha256:a30429d82363d42e7c64e324c2c8735c045f190cba609feee91a7b9f563a64b5"},
+    {file = "rich-10.2.1-py3-none-any.whl", hash = "sha256:0ea4ece572d6fa94c40983bbf49c6fdce01b9790558c3645f2e1736bb91cdc0b"},
+    {file = "rich-10.2.1.tar.gz", hash = "sha256:34865558d322f7151a3012357caa3622df966e51d7a639e4b1fd1b3675b302fc"},
 ]
 sqlparse = [
     {file = "sqlparse-0.4.1-py3-none-any.whl", hash = "sha256:017cde379adbd6a1f15a61873f43e8274179378e95ef3fede90b5aa64d304ed0"},
