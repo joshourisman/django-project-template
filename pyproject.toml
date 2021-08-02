@@ -16,7 +16,7 @@ django-pydantic-settings = "^0.4.1"
 rich = "^10.6.0"
 
 [tool.poetry.dev-dependencies]
-ipython = "^7.25.0"
+ipython = "^7.26.0"
 ptpython = "^3.0.19"
 invoke = "^1.6.0"
 
