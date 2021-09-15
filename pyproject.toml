@@ -17,7 +17,7 @@ rich = "^10.9.0"
 
 [tool.poetry.dev-dependencies]
 ipython = "^7.27.0"
-ptpython = "^3.0.19"
+ptpython = "^3.0.20"
 invoke = "^1.6.0"
 
 [build-system]
