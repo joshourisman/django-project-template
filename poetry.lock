@@ -83,14 +83,6 @@ optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*"
 
 [[package]]
-name = "dj-database-url"
-version = "0.5.0"
-description = "Use Database URLs in your Django Application."
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "django"
 version = "3.2.13"
 description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
@@ -131,14 +123,13 @@ Django = ">=2.0.1"
 
 [[package]]
 name = "django-pydantic-settings"
-version = "0.4.1"
+version = "0.6.2"
 description = "Manage Django settings with Pydantic."
 category = "main"
 optional = false
-python-versions = ">=3.6.1,<4.0.0"
+python-versions = ">=3.8,<4.0"
 
 [package.dependencies]
-dj-database-url = ">=0.5.0,<0.6.0"
 Django = ">=1.11"
 pydantic = {version = ">=1.8,<2.0", extras = ["email"]}
 
@@ -478,7 +469,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "ee6ab2743c5ad80206c22b9c8033c4887048c171c76582e8031a2af7a2b17530"
+content-hash = "e14f2787b9a88cb75e9d55e98155785a5177ef695cd20e210fadadc60989a124"
 
 [metadata.files]
 appdirs = [
@@ -577,10 +568,6 @@ decorator = [
     {file = "decorator-4.4.2-py2.py3-none-any.whl", hash = "sha256:41fa54c2a0cc4ba648be4fd43cff00aedf5b9465c9bf18d64325bc225f08f760"},
     {file = "decorator-4.4.2.tar.gz", hash = "sha256:e3a62f0520172440ca0dcc823749319382e377f37f140a0b99ef45fecb84bfe7"},
 ]
-dj-database-url = [
-    {file = "dj-database-url-0.5.0.tar.gz", hash = "sha256:4aeaeb1f573c74835b0686a2b46b85990571159ffc21aa57ecd4d1e1cb334163"},
-    {file = "dj_database_url-0.5.0-py2.py3-none-any.whl", hash = "sha256:851785365761ebe4994a921b433062309eb882fedd318e1b0fcecc607ed02da9"},
-]
 django = [
     {file = "Django-3.2.13-py3-none-any.whl", hash = "sha256:b896ca61edc079eb6bbaa15cf6071eb69d6aac08cce5211583cfb41515644fdf"},
     {file = "Django-3.2.13.tar.gz", hash = "sha256:6d93497a0a9bf6ba0e0b1a29cccdc40efbfc76297255b1309b3a884a688ec4b6"},
@@ -594,8 +581,8 @@ django-model-utils = [
     {file = "django_model_utils-4.2.0-py3-none-any.whl", hash = "sha256:a768a25c80514e0ad4e4a6f9c02c44498985f36c5dfdea47b5b1e8cf994beba6"},
 ]
 django-pydantic-settings = [
-    {file = "django-pydantic-settings-0.4.1.tar.gz", hash = "sha256:b06ec8761986dc5d2f4ee64d29b04b9b6703c329383a2f58875f63f2b23c757d"},
-    {file = "django_pydantic_settings-0.4.1-py3-none-any.whl", hash = "sha256:6671b4b7fe8a2c43c54accbdf62c2bbdb8e5e0aed08b5a660305e7ea9946cd48"},
+    {file = "django-pydantic-settings-0.6.2.tar.gz", hash = "sha256:f44f7240cb651c8153adae1db55908bea09818dcdbf25d81e176a1cbf7adfd59"},
+    {file = "django_pydantic_settings-0.6.2-py3-none-any.whl", hash = "sha256:00db7a386e42be2e34b879b51c30ce3de74534a2c7f3e1de72f3f09096fa5dd7"},
 ]
 dnspython = [
     {file = "dnspython-2.1.0-py3-none-any.whl", hash = "sha256:95d12f6ef0317118d2a1a6fc49aac65ffec7eb8087474158f42f26a639135216"},
