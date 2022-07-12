@@ -377,7 +377,7 @@ python-versions = "*"
 
 [[package]]
 name = "rich"
-version = "12.4.4"
+version = "12.5.1"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
@@ -469,7 +469,7 @@ brotli = ["brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "f5b00d566f5ef29bd31257b3d55599b43ef3faf6c11a8b5dde43a26f6239be5b"
+content-hash = "2a29c26cd63eafdf518e4546fb2b1adeff0b0c98ab7e57ea6dba98dc8e8af478"
 
 [metadata.files]
 appdirs = []
