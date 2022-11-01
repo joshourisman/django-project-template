@@ -123,7 +123,7 @@ Django = ">=2.0.1"
 
 [[package]]
 name = "django-pydantic-settings"
-version = "0.6.3"
+version = "0.7.0"
 description = "Manage Django settings with Pydantic."
 category = "main"
 optional = false
@@ -469,7 +469,7 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "1fb48b3d8018a55c791ca3035b1588c59140b8780298fb1a41dc0de662a9e3c8"
+content-hash = "1202bcd69911d0b2c17d554bba9f76da5de75c3654df417386af543206895c11"
 
 [metadata.files]
 appdirs = [
@@ -581,8 +581,8 @@ django-model-utils = [
     {file = "django_model_utils-4.2.0-py3-none-any.whl", hash = "sha256:a768a25c80514e0ad4e4a6f9c02c44498985f36c5dfdea47b5b1e8cf994beba6"},
 ]
 django-pydantic-settings = [
-    {file = "django-pydantic-settings-0.6.3.tar.gz", hash = "sha256:b7574c416a355bd96dd6fcaa07d55383233026536c3457d1df9fc0d6ee9c85e7"},
-    {file = "django_pydantic_settings-0.6.3-py3-none-any.whl", hash = "sha256:636bcb160cd79211c6ded35fc6ae4f2a064dc135da4eb92b5c9ed5b897cd6f89"},
+    {file = "django-pydantic-settings-0.7.0.tar.gz", hash = "sha256:22b7b35e6bbc092b4d856600a8a9ecc45bc8cd9215a3b618ec49e146a171a983"},
+    {file = "django_pydantic_settings-0.7.0-py3-none-any.whl", hash = "sha256:983a32c94179e8032b2d9e9e13ae798a492b9936d93aeb50419db67f8897a719"},
 ]
 dnspython = [
     {file = "dnspython-2.1.0-py3-none-any.whl", hash = "sha256:95d12f6ef0317118d2a1a6fc49aac65ffec7eb8087474158f42f26a639135216"},
