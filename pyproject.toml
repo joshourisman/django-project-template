@@ -11,7 +11,7 @@ Django = "~3.2"
 whitenoise = {version = "^6.2.0", extras = ["brotli"]}
 django-extensions = "^3.2.1"
 psycopg2-binary = "^2.9.5"
-django-model-utils = "^4.2.0"
+django-model-utils = "^4.3.1"
 django-pydantic-settings = "^0.6.3"
 rich = "^12.6.0"
 
